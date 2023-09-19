@@ -36,7 +36,7 @@ In the data cleaning step the data quality of the following datasets were first 
 - <b>Transaction_data.xlsx </b>:
   - The product_first_sold_date column is not in datetime format. The data type of this column was changed from int64 to datetime format.
   - There were 7 columns where Missing values were present. For such columns, based on the volume of the missing values, either the records were dropped or appropriate values were imputed at places of missing values
-  - A new feature column, 'Profit' was created, which is basically the difference between the list price and the standard price.
+  - A new feature column, 'Profit', was created, which is basically the difference between the list price and the standard price.
   - There was no data inconsistency.
   - Checked whether there are duplicate records present in the dataset. In this dataset, there were no duplicate records.
 - <b>CustomerAddress.xlsx</b> :
